@@ -25,7 +25,7 @@ int main(void)
 
     x = y = 20;
     z = ++x; //x + 1　をzに代入
-    w = y ++; //y をｗに代入後、yに１を足す
+    w = y++; //y をｗに代入後、yに１を足す
     printf("%d %d %d %d\n", x, y, z, w);
 
     x = sizeof(int);
@@ -63,5 +63,12 @@ int main(void)
 
     return 0;
 
+//　[//]記号の消し方
+//　command と /　で消える
+//　command と z　で元に戻す
+//
+//　[//]記号の付け方
+//　コメントアウトしたい行を選択
+//　command と /　でつく
 
 }
